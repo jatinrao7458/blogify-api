@@ -3,5 +3,6 @@ const postController = require("../controllers/post.controllers")
 const router =express.Router()
 
 router.get('/',postController.getAllPosts)
+router.get('/:id',postController.getPostById)
 
 module.exports=router
