@@ -4,7 +4,7 @@ const app =express()
 
 
 app.get('/',(req,res)=>{
-    res.status(200).send("Welconme to the blogify api")
+    res.status(200).send("Welcome to the blogify api")
 })
 
 app.use('/api/v1/posts',postRoutes)
